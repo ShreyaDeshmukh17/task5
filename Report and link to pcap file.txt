@@ -1,0 +1,37 @@
+Network Traffic Analysis Report
+Task 5: Capture and Analyze Network Traffic Using Wireshark
+
+
+Tool Used: Wireshark
+Interface Used: Wi-Fi 
+Duration of Capture: 1 Minute
+
+Identified Protocols
+1. HTTP (HyperText Transfer Protocol)
+Purpose: Used to transfer web pages from server to client.
+
+Common Port: TCP 80
+
+2. DNS (Domain Name System)
+Purpose: Translates human-friendly domain names to IP addresses.
+
+Common Port: UDP 53
+
+3. ICMP (Internet Control Message Protocol)
+Purpose: Used for diagnostic and error-reporting (e.g., ping).
+
+Common Port: No specific port (network layer protocol)
+
+
+ Example Packet Summaries
+Protocol|	Source IP |   Destination IP   |Source Port | Destination Port  |	Notes                        |
+----------------------------------------------------------------------------------------------------------------------
+HTTP	|192.168.0.105    |    93.184.216.34   |50432       |  80	        |  Web page request to example.com   |
+DNS	|192.168.0.105	  |    1.1.1.1	       |60043       |  53               |  DNS query for google.com          |
+ICMP	|192.168.0.105	  |    142.250.183.206 |N/A         |  N/A	        |  Ping reply from Google            |
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+LINK FOR .PCAP FILE:
+https://drive.google.com/file/d/1Ks0gQCftIl9RSWURxPqpucGxi8E5xrrY/view?usp=sharing
